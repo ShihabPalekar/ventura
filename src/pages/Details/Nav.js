@@ -3,7 +3,7 @@ import { useNavigate } from "react-router";
 const Nav = ({ data }) => {
   const navigate = useNavigate();
   return (
-    <div className="logo-banner">
+    <div className="nav-wrapper">
       <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
         <div>
           <svg

@@ -20,58 +20,92 @@
   font-size: 12px;
 }
 
-.logo-banner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .apply-btn {
-    background-color: #03064d;
-    font-weight: 500;
-    color: white;
-    border: none;
-    padding: 10px 30px;
-    border-radius: 5px;
+  background-color: #03064d;
+  font-weight: 500;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
 }
 
-.ipo-details-outer-wrapper{
-    border: 1px solid #E6E6E6;
-    padding: 16px;
-    border-radius: 8px;
-    margin-top: 16px;
+.ipo-details-outer-wrapper {
+  border: 1px solid #e6e6e6;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 16px;
 }
 
 .ipo-details {
-    border: 1px solid #E6E6E6;
-    padding: 16px;
-    border-radius: 8px;
-    margin: 16px 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
+  border: 1px solid #e6e6e6;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 16px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .ipo-item {
-    flex: 1 0 calc(25% - 16px);
+  flex: 1 0 calc(25% - 16px);
 }
 
 .heading {
-    font-size: 14px;
-    font-weight: 600;
-    color: #03064d;
+  font-size: 14px;
+  font-weight: 600;
+  color: #03064d;
 }
 
 .about-wrapper {
-    border: 1px solid #E6E6E6;
-    padding: 8px 16px;
-    border-radius: 8px;
-    margin-top: 16px;
+  border: 1px solid #e6e6e6;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin-top: 16px;
 }
 
 .ipo-timeline-wrapper {
-    border: 1px solid #E6E6E6;
-    padding: 16px;
-    border-radius: 8px;
+  border: 1px solid #e6e6e6;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.only-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .apply-btn {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+  .ipo-item {
+    flex: 1 0 calc(50% - 16px);
+  }
+  .ipo-details-outer-wrapper {
+    border: none;
+    padding: 0px;
+    border-radius: 0px;
     margin-top: 16px;
+  }
+  .ipo-details {
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .only-desktop{
+    display: none;
+  }
+  .only-mobile{
+    display: block;
+  }
 }
