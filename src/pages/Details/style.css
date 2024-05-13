@@ -1,0 +1,77 @@
+.details-container {
+  padding: 16px;
+  background-color: white;
+}
+
+.logo {
+  border: 1px solid #f2f2f2;
+  border-radius: 100%;
+  margin-right: 8px;
+}
+
+.main-text {
+  color: #03064d;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sub-text {
+  color: #8c8c8c;
+  font-size: 12px;
+}
+
+.logo-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apply-btn {
+    background-color: #03064d;
+    font-weight: 500;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.ipo-details-outer-wrapper{
+    border: 1px solid #E6E6E6;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.ipo-details {
+    border: 1px solid #E6E6E6;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 16px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.ipo-item {
+    flex: 1 0 calc(25% - 16px);
+}
+
+.heading {
+    font-size: 14px;
+    font-weight: 600;
+    color: #03064d;
+}
+
+.about-wrapper {
+    border: 1px solid #E6E6E6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.ipo-timeline-wrapper {
+    border: 1px solid #E6E6E6;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 16px;
+}

@@ -9,7 +9,8 @@ const Home = () => {
 
   useEffect(() => {
     setData(dummyData);
-  }, []);
+  }, [data]);
+
   return (
     <div className="container">
         <DataTable data={data}/>
