@@ -1,6 +1,6 @@
 const StepProgressBar = () => {
   return (
-    <div style={{margin: "24px 0 16px"}}>
+    <div className="only-desktop" style={{margin: "24px 0 16px"}}>
       <div style={{ display: "flex" }}>
         <div
           style={{
