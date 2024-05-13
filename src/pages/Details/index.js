@@ -4,8 +4,9 @@ import { dummyData } from "../../dummyData";
 import { useParams } from "react-router";
 import About from "./About";
 import IPOdetails from "./IPOdetails";
-import Nav from "./Nav";
 import IPOtimeline from "./IPOtimeline";
+import HeaderBar from "./HeaderBar";
+import Nav from "./Nav";
 
 const Details = () => {
   const [data, setData] = useState({});
@@ -17,7 +18,8 @@ const Details = () => {
 
   return (
     <div className="details-container">
-      <Nav data={data} />
+      <Nav />
+      <HeaderBar data={data} />
       <IPOdetails data={data} />
       <IPOtimeline />
       <About />

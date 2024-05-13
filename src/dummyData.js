@@ -1,8 +1,8 @@
 export const dummyData = [
   {
     id: 1,
-    name: "GO Air",
-    companyName: "Go Air Pvt Ltd",
+    name: "OYO",
+    companyName: "OYO Pvt Ltd",
     logoUrl:
       "https://upload.wikimedia.org/wikipedia/commons/1/19/OYO_Rooms_%28logo%29.png",
     issueDate: "4th - 7th Oct 2022",
@@ -17,8 +17,8 @@ export const dummyData = [
   },
   {
     id: 2,
-    name: "GO Air",
-    companyName: "Go Air Pvt Ltd",
+    name: "OYO",
+    companyName: "OYO Pvt Ltd",
     logoUrl:
       "https://upload.wikimedia.org/wikipedia/commons/1/19/OYO_Rooms_%28logo%29.png",
     issueDate: "4th - 7th Oct 2022",
@@ -33,8 +33,8 @@ export const dummyData = [
   },
   {
     id: 3,
-    name: "GO Air",
-    companyName: "Go Air Pvt Ltd",
+    name: "OYO",
+    companyName: "OYO Pvt Ltd",
     logoUrl:
       "https://upload.wikimedia.org/wikipedia/commons/1/19/OYO_Rooms_%28logo%29.png",
     issueDate: "4th - 7th Oct 2022",
@@ -49,8 +49,8 @@ export const dummyData = [
   },
   {
     id: 4,
-    name: "GO Air",
-    companyName: "Go Air Pvt Ltd",
+    name: "OYO",
+    companyName: "OYO Pvt Ltd",
     logoUrl:
       "https://upload.wikimedia.org/wikipedia/commons/1/19/OYO_Rooms_%28logo%29.png",
     issueDate: "4th - 7th Oct 2022",
@@ -65,8 +65,8 @@ export const dummyData = [
   },
   {
     id: 5,
-    name: "GO Air",
-    companyName: "Go Air Pvt Ltd",
+    name: "OYO",
+    companyName: "OYO Pvt Ltd",
     logoUrl:
       "https://upload.wikimedia.org/wikipedia/commons/1/19/OYO_Rooms_%28logo%29.png",
     issueDate: "4th - 7th Oct 2022",

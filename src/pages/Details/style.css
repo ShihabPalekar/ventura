@@ -3,6 +3,20 @@
   background-color: white;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: #8c8c8c;
+}
+
+.nav > div:hover {
+  color: #03064d;
+}
+
 .logo {
   border: 1px solid #f2f2f2;
   border-radius: 100%;
@@ -20,7 +34,7 @@
   font-size: 12px;
 }
 
-.nav-wrapper {
+.header-bar-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,6 +47,11 @@
   border: none;
   padding: 10px 30px;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.apply-btn:hover{
+  background-color: #05097a;
 }
 
 .ipo-details-outer-wrapper {
@@ -76,7 +95,7 @@
   margin-top: 16px;
 }
 
-.only-mobile{
+.only-mobile {
   display: none;
 }
 
@@ -102,10 +121,10 @@
     flex-wrap: wrap;
     gap: 16px;
   }
-  .only-desktop{
+  .only-desktop {
     display: none;
   }
-  .only-mobile{
+  .only-mobile {
     display: block;
   }
 }
